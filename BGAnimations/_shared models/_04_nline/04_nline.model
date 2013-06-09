@@ -1,0 +1,4 @@
+[Model]
+Meshes=04_nline_mesh.txt
+Materials=04_nline_materials.txt
+Bones=04_nline_bones.txt

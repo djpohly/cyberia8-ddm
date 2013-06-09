@@ -1,0 +1,4 @@
+[Model]
+Meshes=08_wall_mesh.txt
+Materials=08_wall_materials.txt
+Bones=08_wall_bones.txt
