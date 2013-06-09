@@ -52,12 +52,12 @@ t[#t+1] = Def.ActorFrame{
 						path = cjacket;
 						if song:GetJacketPath() then 
 							path = song:GetJacketPath();
+						elseif song:GetBackgroundPath() then
+							path = song:GetBackgroundPath();
 						elseif song:GetBannerPath() then
 							path = song:GetBannerPath();
 							rate = 0.2;
 							zoom = 50;
-						elseif song:GetBackgroundPath() then
-							path = song:GetBackgroundPath();
 						elseif song:GetCDImagePath() then
 							path = song:GetCDImagePath();
 						end;
