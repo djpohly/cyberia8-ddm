@@ -1,8 +1,8 @@
 local t = Def.ActorFrame {
 	--song length
 	LoadFont("_numbers3") ..{
-		InitCommand=cmd(horizalign,right;shadowlength,0;maxwidth,124;);
-		OnCommand=cmd(zoomy,0;sleep,0.9;decelerate,0.4;zoomy,1;playcommand,"Set");
+		InitCommand=cmd(horizalign,right;vertalign,bottom;shadowlength,0;maxwidth,124;);
+		OnCommand=cmd(zoomx,0.7;sleep,0.9;decelerate,0.4;zoomy,0.7;playcommand,"Set");
 		SetCommand=function(self)
 			local SongOrCourse;
 			local timeText = "x:xx.xx";

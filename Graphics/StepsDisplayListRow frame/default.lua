@@ -21,7 +21,7 @@ local t = Def.ActorFrame{
 	};
 	
 	LoadFont("StepsDisplay meter")..{
-		InitCommand=cmd(x,6;y,-32;shadowlength,0;rotationz,90;horizalign,left;maxwidth,60;zoom,0.8;skewx,-0.175);
+		InitCommand=cmd(x,14;y,-32;shadowlength,0;rotationz,90;horizalign,left;maxwidth,60;zoom,1.2;skewx,-0.175);
 		SetCommand=function(self,params)
 			self:stoptweening();
 			local song = GAMESTATE:GetCurrentSong();

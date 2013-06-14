@@ -72,7 +72,7 @@ local function PercentScoreText( pn )
 						self:settext("0%");
 					else self:settext(FormatPercentScore(pct));
 					end;
-					(cmd(addx,50;zoom,0;sleep,1.85;zoomx,0.75;zoomy,5;accelerate,0.15;zoomy,0.75))(self)
+					(cmd(addx,50;zoom,0;sleep,1.85;zoomx,1;accelerate,0.15;zoomy,1))(self)
 				elseif pm == "PlayMode_Endless" then
 					self:diffusealpha(0);
 				elseif pm == "PlayMode_Rave" then
@@ -86,7 +86,7 @@ local function PercentScoreText( pn )
 						self:addx(14);
 					else self:settext(FormatPercentScore(pct));
 					end;
-					(cmd(zoom,0;sleep,1.85;zoomx,0.4;zoomy,5;accelerate,0.15;zoomy,0.4))(self)
+					(cmd(zoom,0;sleep,1.85;zoomx,1;accelerate,0.15;zoomy,1))(self)
 				end;
 			end;
 		end;

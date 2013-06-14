@@ -652,7 +652,7 @@ for idx, cat in pairs(statsCategoryValues) do
 			};
 			LoadFont("_numbers3")..{
 				InitCommand=function(self)
-					(cmd(horizalign,left;x,-26;y,8;))(self);
+					(cmd(horizalign,left;vertalign,bottom;x,-26;y,8;zoom,0.7))(self);
 					if pn == PLAYER_1 then self:diffuse(PlayerColor(PLAYER_1));
 					else self:diffuse(PlayerColor(PLAYER_2));
 					end;
